@@ -1,0 +1,84 @@
+{
+    "status" : 200,
+    "orderInformation" : {
+        "orderNumber" : 12346567819,
+        "restaurantId" : 38913892,
+        "restaurantName" : "La taverna",
+        "pickup" : true,
+        "delivery" : false,
+        "orderItemsList" : [
+      {
+          "itemId" : 1882922,
+          "itemName" : "Strupwaffle Tortilla",
+          "itemQuantity" : 1,
+          "itemToppings" : [
+              {
+                  "toppingCategoryType" : "Size",
+                  "toppingSelected" : [ {
+                      "toppingId" : 1211412,
+                      "toppingName" : "small",
+                      "toppingNumber" : 1
+                  }],
+                  "toppingPrice" : "$0"
+              },
+              {
+                  "toppingCategoryType" : "Flavor",
+                  "toppingSelected" : [ {
+                      "toppingId" : 11341223,
+                      "toppingName" : "Watermelon",
+                      "toppingNumber" : 1
+                  } ],
+                  "toppingPrice" : "$1.00"
+              }   
+          ],
+          "itemSpecialRequest" : "",
+          "itemBasePrice" : "$17.95",
+          "itemTotalPrice" : "$18.95"
+      },
+      {
+          "itemId" : 1882922,
+          "itemName" : "Tsu Chicken",
+          "itemQuantity" : 1,
+          "itemToppings" : [
+              {
+                  "toppingCategoryType" : "Veggetables",
+                  "toppingSelected" : [ "corn", "broccoli" ],
+                  "toppingPrice" : "$0"
+              },
+              {
+                  "toppingCategoryType" : "Size",
+                  "toppingSelected" : [ "Large" ],
+                  "toppingPrice" : "$2.00"
+              }   
+          ],
+          "itemSpecialRequest" : "",
+          "itemBasePrice" : "$17.95",
+          "itemTotalPrice" : "$19.95"
+      }
+  ],
+        "total" : "$64.5",
+        "items" : 10,
+        "payment" : {
+            "isCash" : false,
+            "cardName" : "Max Cooper",
+            "cardNumber" : "182647829098476532678902",
+            "cardExp" : "1212",
+            "cardCVV" : "123",
+            "cardZipcode" : "10001",
+            "cardTip" : "$1.99"
+    }
+    },
+    "customer" : {
+        "name" : "Max",
+        "lastName" : "Cooper",
+        "phoneNumber" : "+1 973 626-4505",
+        "email" : "maxmawad@gmail.com",
+        "address" : {
+            "street" : "285 MLK Blvd",
+            "apt" : "Apt. 2",
+            "city" : "Newark",
+            "state" : "New Jersey",
+            "zipcode" : "07102"
+        }
+    },
+}
